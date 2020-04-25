@@ -1,0 +1,4 @@
+lxc config device add fabrica-manager lxdsocket proxy connect=unix:/var/snap/lxd/common/lxd/unix.socket listen=unix:/var/lib/lxd/unix.socket  bind=container uid=0 gid=108 mode=0660  security.uid=65534 security.gid=999	
+
+
+
